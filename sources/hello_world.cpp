@@ -1,10 +1,9 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main() {
-     string name;
-     cin >> name;
-     cout << "Hello world from " << name << endl;
+     std::string name;
+     std::cin >> name; // Comment to prove merge can still be done
+     std::cout << "Hello world from " << name << std::endl;
      return 0;
 }
